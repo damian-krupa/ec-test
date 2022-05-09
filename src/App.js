@@ -47,7 +47,7 @@ function App() {
             <SearchWithReturn airports={data.airports} setSelectedConnection={setSelectedConnection} />
           )}
 
-          <div className='my-3'>Search results:</div>
+          <div className='my-3'>Search criteria:</div>
           <div className='my-3'>{selectedConnection}</div>
         </>
       )}
